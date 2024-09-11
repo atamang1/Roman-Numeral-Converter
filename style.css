@@ -1,0 +1,95 @@
+
+:root{
+    --champagne-color: #fcf4d9; 
+    --Pale-Turquoise-color: #8ed2c9; 
+    --tropical-teal-color: #00aaa0; 
+    --coral-red-color: #d55b3e; 
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: var(--coral-red-color);
+}
+
+/*Styling main*/
+main {
+    display: flex; 
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px; 
+    height: auto;
+}
+
+/*heading div*/
+.heading-div{
+    height: auto;
+    width: 500px;
+    text-align: center;
+    font-size: 30px; 
+    font-weight: bold;
+    color: var(--champagne-color)
+}
+
+/*form */
+#input-form{
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    border: 5px solid var(--champagne-color);
+    width: 500px;
+    height: auto; 
+    margin: 20px; 
+    padding-top: 20px; 
+    padding: 20px; 
+    background-color: var(--tropical-teal-color)
+}
+
+#input-form p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--champagne-color);
+}
+
+#input-form input {
+    border: 1px solid var(--champagne-color); 
+    height: 90px; 
+    font-size: 50px; 
+    padding-left: 10px;
+    font-weight: bold;
+    color: var(--coral-red-color); 
+    background-color: var(--Pale-Turquoise-color);
+}
+
+#input-form button {
+    height: 90px; 
+    font-size: 20px; 
+    border: 5px solid var(--champagne-color);
+    background-color: goldenrod;
+}
+
+#input-form button:hover{
+    transform: translateY(2px);
+}
+
+/*result div*/
+.result-div {
+    border: 5px solid var(--champagne-color);
+    background-color: var(--tropical-teal-color);
+    color: var(--champagne-color);
+    width: 500px; 
+    height: auto; 
+    text-align: center;
+    padding: 15px; 
+    font-size: 35px; 
+    font-weight: bold;
+    display: none; 
+}
